@@ -1,0 +1,24 @@
+# Library management system should allow librarians to manage books, members, and borrowing activity
+# The system should support adding, removing and updating books from the library
+# Each book should have details title, author, ISDN, publication year, availability status
+# The system should allow members to borrow and return books
+# Each member should have details such as memberId, contact info and borrowing history
+# The system should enforce borrowing rules such as max number of books that can be borrowed and duration
+# The system should handle concurrent access to the library catalog and member records.
+# The system should be extensible to accommodate future enhancements and new features.
+
+
+# NVT Technique
+# Nouns
+# Books
+# members
+
+# Verbs
+# borrow
+# return
+# add book
+# update book
+# remove book
+
+# LibraryManager is the core class --> Singleton pattern
+# It supports adding a member, removing a member, CRUD on books, borrowing and returning a book, searching a book
